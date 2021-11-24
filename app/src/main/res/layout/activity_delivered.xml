@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserLogin">
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@+id/text1"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#335238"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text1"/>
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/text1"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#335238"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text2"/>
+
+    <ImageView
+        android:id="@+id/endride"
+        android:layout_centerInParent="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/del"/>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "972680716997",
+    "project_id": "fleet-31a90",
+    "storage_bucket": "fleet-31a90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972680716997:android:a09828addb3392a128c6ac",
+        "android_client_info": {
+          "package_name": "com.siddhi.fleet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972680716997-hleb8fo40prht3f6t963qo4jts92rvka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siddhi.fleet",
+            "certificate_hash": "55a8ebd0da9f1eb761cca1065e5a5dc8f93e7aa4"
+          }
+        },
+        {
+          "client_id": "972680716997-tj73ffikd0fm071u0qo6u6nregumqtn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANp4BvyDn-s_-1hSPLR6ca7PxUZ1_R844"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972680716997-tj73ffikd0fm071u0qo6u6nregumqtn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

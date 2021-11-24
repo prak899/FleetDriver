@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">iTrans</string>
+
+    <string name="EmailID_Name">Siddhi Transport /-/siddhitransport06@gmail.com</string>
+    <string name="password">Siddhi@123</string>
+
+    <string name="tracking_enabled_notif">Tracking is currently enabled. Tap to cancel.</string>
+    <string name="test_email">majhi9442@gmail.com</string>
+    <string name="test_password">123456</string>
+
+
+    <string name="notification_text">Tracking, tap to cancel</string>
+    <string name="transport_id" translatable="false">123</string>
+    <string name="firebase_path" translatable="false">locations</string>
+    <string name="firebase_email" translatable="false">majhi9442@gmail.com</string>
+    <string name="firebase_password" translatable="false">123456</string>
+
+
+    <string name="text1">*Please ensure that you have reached your destination after that click delivered icon*</string>
+    <string name="text2">कृपया सुनिश्चित करें कि आप अपने गंतव्य तक पहुंच गए हैं</string>
+
+
+    <string name="text3">*Please click on below icon to start your ride*</string>
+    <string name="text4">कृपया अपनी यात्रा शुरू करने के लिए नीचे दिए गए आइकन पर क्लिक करें</string>
+
+    <string name="text5">Happy journey आपकी यात्रा शुभ हो</string>
+
+    <string name="text6">आपकी यात्रा पूर्ण हुई : धन्यवाद्</string>
+
+
+    <string name="launch_activity">Launch activity</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="location_updates_label">Location Updates</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="request_location_updates">Request location updates</string>
+    <string name="remove_location_updates">Remove location updates</string>
+
+    <string name="location_updated">Location Updated: %1$s</string>
+
+</resources>

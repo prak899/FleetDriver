@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminzAuth">
+
+    <ImageView
+
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:layout_height="150dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginStart="10dp"
+        app:errorEnabled="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:id="@+id/edit_text_user_name1"
+        app:boxStrokeColor="#000000"
+        android:textColorHint="#000000"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:hint="Username">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:imeActionLabel="Sign_in"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:passwordToggleEnabled="true"
+        android:layout_below="@id/edit_text_user_name1"
+        android:layout_marginStart="10dp"
+        app:errorEnabled="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:id="@+id/edit_text_user_name2"
+        app:boxStrokeColor="#000000"
+        android:textColorHint="#000000"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:hint="Password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:imeActionLabel="Sign_in"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/verifyAdmin"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edit_text_user_name2"
+        android:src="@drawable/ic_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
